@@ -97,7 +97,7 @@ public class DoctorsRepository {
     public Doctors searchByLowFees(){
         int min;
 
-        Doctors d=(Doctors)ar.get(0);//here we need to initialise the value so we can do like that
+        Doctors d=(Doctors)ar.get(0);// here we need to initialise the value so we can do like that
         min=d.getFees();
         Doctors dl=null;
         for(Object obj:ar){
